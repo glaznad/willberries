@@ -61,7 +61,6 @@ const getGoods = () => {
   }
 
   if (viewAll) {
-
     viewAll.addEventListener('click', (event) => {
       event.preventDefault();
       getData();
