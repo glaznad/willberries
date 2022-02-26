@@ -17,6 +17,4 @@ export const slider = () => {
     }
   });
 
-  console.log('swiper: ', swiper);
-
 }
