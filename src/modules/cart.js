@@ -120,6 +120,8 @@ export const cart = function () {
     }).then(() => {
       cart.style.display = '';
       localStorage.removeItem('cart');
+      const form = document.querySelector('.modal-form');
+      form.reset();
     })
   }
 
